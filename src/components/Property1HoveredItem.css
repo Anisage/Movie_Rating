@@ -1,0 +1,50 @@
+.rectangle-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.lorem-ipsum-dolor12 {
+  position: absolute;
+  top: 51px;
+  left: 180px;
+  display: -webkit-inline-box;
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  width: 225px;
+}
+.property-1hovered-item-child2 {
+  position: absolute;
+  top: -5px;
+  left: -20px;
+  background-color: var(--color-teal-100);
+  width: 448px;
+  height: 255px;
+}
+.property-1hovered-item2 {
+  position: absolute;
+  top: 270px;
+  left: 20px;
+  width: 158px;
+  height: 230px;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+  font-family: var(--font-bellefair);
+}
+@media screen and (max-width: 450px) {
+  .lorem-ipsum-dolor12 {
+    font-size: var(--font-size-xl);
+  }
+}

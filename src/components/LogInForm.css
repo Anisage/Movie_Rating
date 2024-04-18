@@ -1,0 +1,136 @@
+.log-in-form8 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-32xl);
+  background-color: var(--color-gray-200);
+}
+.log-in3 {
+  flex: 1;
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+.log-in-frame {
+  width: 447px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-61xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.blank-line8,
+.blank-line9,
+.convallis-convallis-tellus4,
+.lorem-ipsum-dolor4,
+.malesuada-fames-ac4 {
+  margin: 0;
+}
+.lorem-ipsum-dolor-container5 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  text-align: left;
+  z-index: 1;
+}
+.logo-holder {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  max-width: 100%;
+}
+.connect-button3 {
+  height: 71px;
+  width: 258px;
+  position: absolute;
+  margin: 0 !important;
+  right: -24px;
+  bottom: -31px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-teal);
+  cursor: pointer;
+  z-index: 1;
+}
+.connect-to-wallet4 {
+  flex: 1;
+  position: relative;
+  z-index: 2;
+}
+.connect-button-parent1 {
+  width: 211px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.log-in-form-child,
+.log-in-form7 {
+  width: 445px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+  font-size: var(--font-size-6xl);
+}
+.log-in-form7 {
+  width: 590px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-10xl) var(--padding-27xl) var(--padding-65xl)
+    var(--padding-52xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-69xl);
+  z-index: 2;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  font-family: var(--font-bellefair);
+}
+@media screen and (max-width: 750px) {
+  .log-in3 {
+    font-size: var(--font-size-5xl);
+  }
+  .log-in-form7 {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-36xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 675px) {
+  .log-in-form7 {
+    gap: var(--gap-25xl);
+    padding-left: var(--padding-16xl);
+    padding-right: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .log-in3 {
+    font-size: var(--font-size-lg);
+  }
+  .log-in-frame {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .connect-to-wallet4,
+  .lorem-ipsum-dolor-container5 {
+    font-size: var(--font-size-xl);
+  }
+  .log-in-form7 {
+    gap: var(--gap-3xl);
+  }
+}

@@ -1,0 +1,39 @@
+.movie-2-component-parent,
+.tree-explorer-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.movie-2-component-parent {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-17xl);
+  flex-shrink: 0;
+  /* debug_commit: 1de1738; */
+}
+.tree-explorer-parent {
+  width: 160px;
+  height: 837px;
+  align-items: flex-end;
+  padding: 0 0 var(--padding-88xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+@media screen and (max-width: 1250px) {
+  .tree-explorer-parent {
+    padding-bottom: var(--padding-51xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .tree-explorer-parent {
+    padding-bottom: var(--padding-26xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .tree-explorer-parent {
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}

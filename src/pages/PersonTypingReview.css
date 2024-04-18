@@ -1,0 +1,216 @@
+.person-typing-review1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-200);
+}
+.frame-child {
+  height: 65px;
+  width: 65px;
+  position: absolute;
+  margin: 0 !important;
+  top: -13px;
+  left: -13px;
+  border-radius: 50%;
+  background-color: var(--color-teal);
+  z-index: 1;
+}
+.dt,
+.ellipse-parent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  position: relative;
+}
+.dt {
+  align-items: center;
+  z-index: 2;
+}
+.ellipse-parent {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.review-star-inner {
+  height: 49px;
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.debi-teloori {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-charm);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.review-star {
+  width: 162px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.review-star-icon,
+.review-star-icon1 {
+  height: 36px;
+  width: 31px;
+  position: relative;
+  min-height: 36px;
+  z-index: 1;
+}
+.review-star-icon2,
+.review-star-icon3,
+.review-star-icon4 {
+  height: 36px;
+  width: 31px;
+  position: relative;
+  min-height: 36px;
+  z-index: 2;
+}
+.review-star-icon3,
+.review-star-icon4 {
+  z-index: 1;
+}
+.three-stars {
+  justify-content: flex-start;
+}
+.frame-wrapper,
+.review-star-group,
+.three-stars {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.review-star-group {
+  justify-content: flex-start;
+  gap: 8px;
+}
+.frame-wrapper {
+  align-self: stretch;
+  justify-content: flex-end;
+}
+.person-typing-review-inner,
+.review-star-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.review-star-parent {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  gap: 3px;
+}
+.person-typing-review-inner {
+  width: 388px;
+  height: 91px;
+  flex-direction: row;
+  padding: 0 3px;
+  box-sizing: border-box;
+}
+.type-a-message {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  width: 692px;
+  z-index: 2;
+}
+.union-symbol {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslategray);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.message-field-child {
+  position: absolute;
+  top: 158px;
+  left: 663px;
+  border-radius: 50%;
+  background-color: var(--color-teal-100);
+  width: 57px;
+  height: 53px;
+  z-index: 3;
+}
+.union-1-icon {
+  position: absolute;
+  top: 174px;
+  left: 682px;
+  width: 20px;
+  height: 21.4px;
+  z-index: 4;
+}
+.message-field {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.input-area,
+.person-typing-review {
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+  font-family: var(--font-bellefair);
+}
+.input-area {
+  align-self: stretch;
+  height: 215px;
+}
+.person-typing-review {
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 34px 21px var(--padding-11xl) var(--padding-10xl);
+  box-sizing: border-box;
+  gap: 64px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 450px) {
+  .dt {
+    font-size: var(--font-size-xl);
+  }
+  .debi-teloori {
+    font-size: var(--font-size-base);
+  }
+  .type-a-message {
+    font-size: var(--font-size-xl);
+  }
+}
+@media screen and (max-width: 389px) {
+  .person-typing-review {
+    gap: 32px;
+  }
+}

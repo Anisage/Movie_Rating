@@ -1,0 +1,8 @@
+.expand-right-icon {
+  height: 74px;
+  width: 74px;
+  position: relative;
+  min-height: 74px;
+  cursor: pointer;
+  z-index: 1;
+}

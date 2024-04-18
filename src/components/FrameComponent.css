@@ -1,0 +1,10 @@
+.review-wrapper {
+  width: 781px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-4xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}

@@ -1,0 +1,36 @@
+.background-image-icon1,
+.overlay2 {
+  position: fixed;
+  margin: 0 !important;
+}
+.background-image-icon1 {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+.overlay2 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+  z-index: 1;
+}
+.log-in-page-1 {
+  width: 100%;
+  position: fixed;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-115xl) var(--padding-xl);
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}
